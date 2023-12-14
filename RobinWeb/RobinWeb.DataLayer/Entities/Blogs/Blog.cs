@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace RobinWeb.DataLayer.Entities.Blogs
+namespace RobinWeb.DataLayer.Entities
 {
     public class Blog
     {
@@ -33,9 +33,16 @@ namespace RobinWeb.DataLayer.Entities.Blogs
         [Display(Name = "بازدید")]
         public int BlogVisit { get; set; }
 
+        public string Blogger { get; set; }
+
         [Display(Name = "تاریخ ساخت")]
         public DateTime CreateDate { get; set; }
 
         public bool IsDelete { get; set; }
+
+        #region NavigationProperty
+        public int UserId { get; set; }
+        public User? User { get; set; }
+        #endregion
     }
 }

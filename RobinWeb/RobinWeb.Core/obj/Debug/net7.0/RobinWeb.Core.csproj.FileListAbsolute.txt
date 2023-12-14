@@ -1,0 +1,12 @@
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.Core\bin\Debug\net7.0\RobinWeb.Core.deps.json
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.Core\bin\Debug\net7.0\RobinWeb.Core.dll
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.Core\bin\Debug\net7.0\RobinWeb.Core.pdb
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.Core\obj\Debug\net7.0\RobinWeb.Core.csproj.AssemblyReference.cache
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.Core\obj\Debug\net7.0\RobinWeb.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.Core\obj\Debug\net7.0\RobinWeb.Core.AssemblyInfoInputs.cache
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.Core\obj\Debug\net7.0\RobinWeb.Core.AssemblyInfo.cs
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.Core\obj\Debug\net7.0\RobinWeb.Core.csproj.CoreCompileInputs.cache
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.Core\obj\Debug\net7.0\RobinWeb.Core.dll
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.Core\obj\Debug\net7.0\refint\RobinWeb.Core.dll
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.Core\obj\Debug\net7.0\RobinWeb.Core.pdb
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.Core\obj\Debug\net7.0\ref\RobinWeb.Core.dll
