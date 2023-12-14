@@ -1,0 +1,129 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\RobinWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RobinWeb.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\css\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\css\\main.min.css",
+      "PackagePath": "staticwebassets\\css\\main.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\css\\main.min.css.map",
+      "PackagePath": "staticwebassets\\css\\main.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\RobinwebLogo.png",
+      "PackagePath": "staticwebassets\\img\\RobinwebLogo.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\background.png",
+      "PackagePath": "staticwebassets\\img\\background.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\banner_bg.png",
+      "PackagePath": "staticwebassets\\img\\banner_bg.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\bg-pattern.png",
+      "PackagePath": "staticwebassets\\img\\bg-pattern.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\image_processing20220708-21892-cye7ve.gif",
+      "PackagePath": "staticwebassets\\img\\image_processing20220708-21892-cye7ve.gif"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\pattern.mp4",
+      "PackagePath": "staticwebassets\\img\\pattern.mp4"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\pattern.webp",
+      "PackagePath": "staticwebassets\\img\\pattern.webp"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\products\\Introduce-Clinic_01.png",
+      "PackagePath": "staticwebassets\\img\\products\\Introduce-Clinic_01.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\slider\\8800987_854.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\8800987_854.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\undraw_online_organizer_re_156n.svg",
+      "PackagePath": "staticwebassets\\img\\undraw_online_organizer_re_156n.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\undraw_pair_programming_re_or4x.svg",
+      "PackagePath": "staticwebassets\\img\\undraw_pair_programming_re_or4x.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\undraw_product_explainer_8jbm.svg",
+      "PackagePath": "staticwebassets\\img\\undraw_product_explainer_8jbm.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\vector-file.png",
+      "PackagePath": "staticwebassets\\img\\vector-file.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\js\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.RobinWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.RobinWeb.props",
+      "PackagePath": "build\\RobinWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.RobinWeb.props",
+      "PackagePath": "buildMultiTargeting\\RobinWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.RobinWeb.props",
+      "PackagePath": "buildTransitive\\RobinWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

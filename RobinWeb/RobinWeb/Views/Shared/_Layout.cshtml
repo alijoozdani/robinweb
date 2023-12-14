@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robinweb|Home</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="/css/bootstrap.rtl.min.css"> -->
+    <link rel="stylesheet" href="/css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/css/main.min.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class="container text-center">
+        <div class="row align-items-center">
+            <div class="col-md-12">
+                <div class="header">
+                    <div class="logo">
+                        <img src="/img/RobinwebLogo.png" alt="logo">
+                    </div>
+                    <div class="menubar">
+                        <ul class="sm-hidden">
+                            <li><a href="blog.html">وبلاگ<i class="bi bi-book-fill"></i></a></li>
+                            <li><a href="index.html">خانه<i class="bi bi-house-fill"></i></a></li>
+                            <li><a href="products.html">محصولات<i class="bi bi-handbag-fill"></i></a></li>
+                        </ul>
+                        <ul class="larg-hidden">
+                            <li><a href="blog.html"><i class="bi bi-book-fill"></i></a></li>
+                            <li><a href="index.html"><i class="bi bi-house-fill"></i></a></li>
+                            <li><a href="products.html"><i class="bi bi-handbag-fill"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sotial -->
+    <div class="sotial">
+        <a href="https://www.instagram.com/robinweb_" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-youtube" target="_blank"></i></a>
+        <a href="#"><i class="bi bi-whatsapp" target="_blank"></i></a>
+    </div>
+    @RenderBody()
+    <!-- contact -->
+    <div class="col-md-12">
+        <div class="contact">
+            <div class="cut-top"></div>
+            <div class="title">
+                <h3>تماس باما</h3>
+                <p>+993 554 7625 / robinweb@gmail.com</p>
+            </div>
+            <div class="contact-form">
+                <form action="">
+                    <input class="input-group input-inline" type="text" name="" placeholder="Name">
+                    <input class="input-group input-inline" type="text" name="" placeholder="Email">
+                    <input class="input-group" type="text" name="" placeholder="Subject">
+                    <textarea class="input-group" type="text" name="" placeholder="Message" rows="4"></textarea>
+                    <button class="btn-neo">ارسال</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/js/bootstrap.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>
