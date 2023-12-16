@@ -10,3 +10,6 @@ D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.Core\obj\Debug\
 D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.Core\obj\Debug\net7.0\refint\RobinWeb.Core.dll
 D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.Core\obj\Debug\net7.0\RobinWeb.Core.pdb
 D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.Core\obj\Debug\net7.0\ref\RobinWeb.Core.dll
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.Core\bin\Debug\net7.0\RobinWeb.DataLayer.dll
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.Core\bin\Debug\net7.0\RobinWeb.DataLayer.pdb
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.Core\obj\Debug\net7.0\RobinWeb.Core.csproj.CopyComplete

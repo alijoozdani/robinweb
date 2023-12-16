@@ -8,6 +8,9 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\img\blogs\" />
+    <Folder Include="wwwroot\img\products\thumb\" />
+    <Folder Include="wwwroot\img\userAvatar\" />
+    <Folder Include="wwwroot\video\product\" />
   </ItemGroup>
 
   <ItemGroup>
