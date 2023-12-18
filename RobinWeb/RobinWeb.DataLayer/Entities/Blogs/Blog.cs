@@ -17,7 +17,7 @@ namespace RobinWeb.DataLayer.Entities
         [DataType(DataType.MultilineText)]
         public string ShortDescription { get; set; }
 
-        public string ShortLink { get; set; }
+        public string? ShortLink { get; set; }
 
         [Display(Name = "متن کامل")]
         [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
@@ -28,7 +28,7 @@ namespace RobinWeb.DataLayer.Entities
         public string Tags { get; set; }
 
         [Display(Name = "تصویر")]
-        public string ImageName { get; set; }
+        public string? ImageName { get; set; }
 
         [Display(Name = "بازدید")]
         public int BlogVisit { get; set; }

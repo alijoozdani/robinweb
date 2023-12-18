@@ -1,0 +1,142 @@
+﻿@page "{handler?}"
+@model RobinWeb.Pages.Admin.Products.IndexModel
+@using RobinWeb.Core.Convertors;
+@{
+    ViewData["Title"] = "محصولات";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">مدیریت محصولات</h1>
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                لیست محصولات
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <form id="formFilter" method="get">
+                        <input type="hidden" value="@ViewData["pageId"]" name="pageId" id="pageid" />
+                        <div class="col-sm-5 col-md-5">
+                            <input type="text" name="search" class="form-control" placeholder="جستوجو" />
+                        </div>
+                        <div class="col-sm-2 col-md-2">
+                            <button type="submit" class="btn btn-info">بگرد</button>
+                            <a class="btn btn-default btn-sm" href="/Admin/Products">خالی</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-12" style="margin: 10px 0;">
+                    <a asp-page="Add" class="btn btn-outline btn-success">افزودن محصول جدید</a>
+                </div>
+            </div>
+
+            <table class="table table-striped table-bordered table-hover dataTable no-footer" id="dataTables-example" aria-describedby="dataTables-example_info">
+                <thead>
+                    <tr>
+                        <th>تصویر</th>
+                        <th>نام محصول</th>
+                        <th>تاریخ ایجاد</th>
+                        <th>دستورات</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.ProductsList.Products)
+                    {
+                        <tr>
+                            <td>
+                                <img src="/img/products/thumb/@item.ImageName" class="thumbnail" />
+                            </td>
+                            <td>
+                                @item.Name
+                            </td>
+                            <td>
+                                @item.CreateDate.ToShamsi()
+                            </td>
+                            <td>
+                                <a href="/Admin/Products/Edit/@item.ProductId" class="btn btn-primary btn-sm">
+                                    ویرایش
+                                </a>
+                                <a onclick="delete(@item.ProductId)" class="btn btn-danger btn-sm">
+                                    حذف
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="dataTables_paginate paging_simple_numbers" id="dataTables-example_paginate">
+                        <ul class="pagination">
+
+                            @for (int i = 1; i <= Model.ProductsList.PageCount; i++)
+                            {
+                                <li class="paginate_button @((i==int.Parse(ViewData["pageId"].ToString()))?"active":"")" aria-controls="dataTables-example" tabindex="0">
+                                    <a onclick="changePage(@i)">@i</a>
+                                </li>
+                            }
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="/js/script.js"></script>
+    <script type="text/javascript">
+
+        function changePage(pageid) {
+            $("#pageid").val(pageid);
+            $("#formFilter").submit();
+        }
+
+
+        function deleteCourse(id) {
+            swal({
+                title: "اخطار !",
+                text: "آیا از حذف  مطمئن هستید ؟",
+                icon: "warning",
+                buttons: ["لغو", "بله"]
+            }).then((isOk) => {
+                if (isOk) {
+                    $.ajax({
+                        url: "/Admin/Products/Delete?productId=" + id,
+                        type: "get",
+                        beforeSend: function () {
+                            $(".loading").show();
+                        },
+                        complete: function () {
+                            $(".loading").hide();
+                        }
+                    }).done(function (data) {
+                        if (data === "Deleted") {
+                            swal({
+                                title: "اعملیات با موفقیت انجام شد",
+                                icon: "success",
+                                button: "باشه"
+                            }).then((isOk) => {
+                                location.reload();
+                            });
+                        } else {
+                            swal({
+                                title: "اعملیات به مشکل برخورد کرد",
+                                icon: "error",
+                                button: "باشه"
+                            });
+                        }
+                    });
+                }
+            });
+
+        }
+    </script>
+}

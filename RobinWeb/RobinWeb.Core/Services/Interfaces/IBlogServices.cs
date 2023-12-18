@@ -14,5 +14,6 @@ namespace RobinWeb.Core.Services.Interfaces
         Blog GetBlogById(int blogId);
         Blog GetBlogByShortLink(string shortLink);
         void AddVisitForBlog(Blog blog);
+        bool DeleteBlog(int blogId);
     }
 }

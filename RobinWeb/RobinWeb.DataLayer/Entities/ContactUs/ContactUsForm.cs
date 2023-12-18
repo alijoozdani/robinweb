@@ -34,10 +34,10 @@ namespace RobinWeb.DataLayer.Entities
         [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
         [MaxLength(800)]
         [MinLength(10,ErrorMessage = "توضیحات باید بیشتر از 10 کاراکتر باشد")]
-        public string Description { get; set; }
+        public string Message { get; set; }
 
         [Display(Name = "پاسخ")]
-        public string AgentAnswer { get; set; }
+        public string? AgentAnswer { get; set; }
 
         [Display(Name ="وضعیت")]
         public bool IsPosted { get; set; }

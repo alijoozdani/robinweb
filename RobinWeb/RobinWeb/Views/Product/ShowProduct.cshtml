@@ -1,0 +1,48 @@
+﻿@model RobinWeb.DataLayer.Entities.Product
+@{
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="blog">
+                <div class="blog-header">
+                    <h4>@Model.ProductName</h4>
+                    <p>@Model.Comment</p>
+                    <p class="float-start"><span>لینک کوتاه:</span>@Model.ShortLink</p>
+                </div>
+                <div class="avatar">
+                    <img src="/img/products/@Model.AvatarName" alt="avatar">
+                </div>
+                <div class="blog-text">
+                    @Html.Raw(Model.Description)
+                </div>
+            </div>
+        </div>
+        <div class="pattern">
+            <img src="/img/bg-pattern.png" alt="robot" id="bg-pattern">
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

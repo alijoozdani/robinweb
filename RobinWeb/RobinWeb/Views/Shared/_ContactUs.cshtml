@@ -1,0 +1,27 @@
+﻿@model RobinWeb.DataLayer.Entities.ContactUsForm
+
+<div class="contact-form">
+    <form asp-controller="Home" asp-action="ContactUs" method="post">
+        <div class="form-group input-inline">
+            <input asp-for="FullName" class="input-group input-width" type="text" placeholder="Name">
+            <span asp-validation-for="FullName" class="text-danger"></span>
+        </div>
+        <div class="form-group input-inline">
+            <input asp-for="Email" class="input-group input-width" type="text" placeholder="Email">
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="form-group input-inline">
+            <input asp-for="PhoneNumber" class="input-group input-width" type="text" placeholder="PhoneNumber">
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+        <div class="form-group input-inline">
+            <input asp-for="Subject" class="input-group input-width" type="text" placeholder="Subject">
+            <span asp-validation-for="Subject" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <textarea asp-for="Message" class="input-group" type="text" placeholder="Message" rows="4"></textarea>
+            <span asp-validation-for="Message" class="text-danger"></span>
+        </div>
+        <button class="btn-neo">ارسال</button>
+    </form>
+</div>

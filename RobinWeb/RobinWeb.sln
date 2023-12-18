@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RobinWeb.DataLayer", "Robin
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RobinWeb.Web", "RobinWeb.Web", "{82BAF63E-EC51-473C-81D8-E3A1645A60DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobinWeb", "RobinWeb\RobinWeb.csproj", "{12494E3A-E837-4562-97E8-61EF870698C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobinWeb", "RobinWeb\RobinWeb.csproj", "{12494E3A-E837-4562-97E8-61EF870698C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobinWeb.DataLayer", "RobinWeb.DataLayer\RobinWeb.DataLayer.csproj", "{EA60FB35-0AEB-4563-9CC8-CCC9ECCF03CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobinWeb.DataLayer", "RobinWeb.DataLayer\RobinWeb.DataLayer.csproj", "{EA60FB35-0AEB-4563-9CC8-CCC9ECCF03CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobinWeb.Core", "RobinWeb.Core\RobinWeb.Core.csproj", "{CAE8D951-DCF4-4439-899A-A7394DA42ED3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobinWeb.Core", "RobinWeb.Core\RobinWeb.Core.csproj", "{CAE8D951-DCF4-4439-899A-A7394DA42ED3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

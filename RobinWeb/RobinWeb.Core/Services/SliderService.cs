@@ -22,6 +22,7 @@ namespace RobinWeb.Core.Services
                 slider.ImageName = SaveFileInServer.SaveFile(image, "wwwroot/img/slider");
             }
             _context.Add(slider);
+            _context.SaveChanges();
         }
 
         public bool DeleteSlider(int sliderId)
@@ -32,6 +33,7 @@ namespace RobinWeb.Core.Services
                 DeleteFileFromServer.DeleteFile(slider.ImageName, "wwwroot/img/slider");
             }
             _context.Remove(slider);
+            _context.SaveChanges();
             return true;
         }
 

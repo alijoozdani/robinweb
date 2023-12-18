@@ -16,6 +16,90 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Pages/Admin/Blogs/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQmxvZ3NcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Pages/Admin/Blogs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQmxvZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Pages/Admin/Blogs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQmxvZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Pages/Admin/ContactUs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ29udGFjdFVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Pages/Admin/ContactUs/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ29udGFjdFVzXFNob3cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Pages/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Pages/Admin/Products/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdHNcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Pages/Admin/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Pages/Admin/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Pages/Admin/Sliders/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2xpZGVyc1xBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Pages/Admin/Sliders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2xpZGVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Pages/Admin/Users/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlcnNcQ3JlYXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Pages/Admin/Users/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlcnNcRWRpdFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Pages/Admin/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Pages/Admin/Users/ListDeleteUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlcnNcTGlzdERlbGV0ZVVzZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Pages/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Views/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Views/Blog/ShowBlog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xTaG93QmxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -24,8 +108,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Views/Product/ShowProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTaG93UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Views/Shared/_ContactUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db250YWN0VXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Workspace/Project/RobinWeb/Robinweb.backend/RobinWeb/RobinWeb/Views/Shared/_ValidationScriptsPartial.cshtml]

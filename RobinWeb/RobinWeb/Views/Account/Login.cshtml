@@ -1,0 +1,85 @@
+﻿@model RobinWeb.Core.DTOs.LoginViewModel
+@{
+    Layout = null;
+    ViewData["Title"] = "ورود به حساب کاربری";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Start Bootstrap - SB Admin Version 2.0 Demo</title>
+
+    <!-- Core CSS - Include with every page -->
+    <link href="/AdminContent/css/bootstrap-rtl.css" rel="stylesheet">
+    <link href="/AdminContent/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <!-- SB Admin CSS - Include with every page -->
+    <link href="/AdminContent/css/sb-admin.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="login-panel panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Please Sign In</h3>
+                        @if (ViewBag.IsSuccess != null)
+                        {
+                            <div class="alert alert-success rtl-text">
+                                <p class="help-block">ورود با موفقیت انجام شد</p>
+                            </div>
+
+                            <script>
+                                // Your delay in milliseconds
+                                var delay = 3000;
+                                setTimeout(function () { window.location = "https://localhost:7069/Admin"; }, delay);
+                            </script>
+                        }
+
+                    </div>
+                    <div class="panel-body">
+                        <form role="form" method="POST" asp-action="Login">
+                            <fieldset>
+                                <div class="form-group">
+                                    <input asp-for="@Model.Email" class="form-control" placeholder="E-mail" name="email" type="email" autofocus>
+                                    <span asp-validation-for="@Model.Email"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input asp-for="@Model.Password" class="form-control" placeholder="Password" name="password" type="password" value="">
+                                    <span asp-validation-for="@Model.Password"></span>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input asp-for="@Model.RememberMe" type="checkbox">Remember Me
+                                    </label>
+                                </div>
+                                <!-- Change this to a button or input when using this as a form -->
+                                <button type="submit" class="btn btn-lg btn-success btn-block">Login</button>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Core Scripts - Include with every page -->
+    <script src="/AdminContent/js/jquery-1.10.2.js"></script>
+    <script src="/AdminContent/js/bootstrap.min.js"></script>
+    <script src="/AdminContent/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+
+    <!-- SB Admin Scripts - Include with every page -->
+    <script src="/AdminContent/js/sb-admin.js"></script>
+
+</body>
+
+</html>
+

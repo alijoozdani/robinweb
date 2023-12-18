@@ -120,7 +120,8 @@ namespace RobinWeb.Core.Services
                 AvatarName=u.UserAvatar,
                 Email=u.Email,
                 UserName=u.UserName,
-                IsActive=u.IsActive
+                IsActive=u.IsActive,
+                Password=u.Password,
             }).Single();
         }
 

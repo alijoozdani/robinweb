@@ -45,7 +45,6 @@ namespace RobinWeb.DataLayer.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("ImageName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDelete")
@@ -56,7 +55,6 @@ namespace RobinWeb.DataLayer.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ShortLink")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Tags")
@@ -87,7 +85,6 @@ namespace RobinWeb.DataLayer.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ContactId"));
 
                     b.Property<string>("AgentAnswer")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("AnswerDate")
@@ -95,11 +92,6 @@ namespace RobinWeb.DataLayer.Migrations
 
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("datetime2");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasMaxLength(800)
-                        .HasColumnType("nvarchar(800)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -115,6 +107,11 @@ namespace RobinWeb.DataLayer.Migrations
 
                     b.Property<bool>("IsPosted")
                         .HasColumnType("bit");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasMaxLength(800)
+                        .HasColumnType("nvarchar(800)");
 
                     b.Property<string>("PhoneNumber")
                         .IsRequired()
@@ -140,7 +137,6 @@ namespace RobinWeb.DataLayer.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductId"));
 
                     b.Property<string>("AvatarName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Comment")
@@ -167,7 +163,6 @@ namespace RobinWeb.DataLayer.Migrations
                         .HasColumnType("nvarchar(250)");
 
                     b.Property<string>("ShortLink")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("VisitCount")
@@ -187,7 +182,6 @@ namespace RobinWeb.DataLayer.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SliderId"));
 
                     b.Property<string>("ImageName")
-                        .IsRequired()
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
 
@@ -214,7 +208,6 @@ namespace RobinWeb.DataLayer.Migrations
                         .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Bio")
-                        .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
@@ -255,12 +248,17 @@ namespace RobinWeb.DataLayer.Migrations
             modelBuilder.Entity("RobinWeb.DataLayer.Entities.Blog", b =>
                 {
                     b.HasOne("RobinWeb.DataLayer.Entities.User", "User")
-                        .WithMany()
+                        .WithMany("Blogs")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("RobinWeb.DataLayer.Entities.User", b =>
+                {
+                    b.Navigation("Blogs");
                 });
 #pragma warning restore 612, 618
         }

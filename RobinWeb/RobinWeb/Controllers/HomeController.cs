@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using RobinWeb.Core.Services.Interfaces;
+using RobinWeb.DataLayer.Entities;
 using RobinWeb.Models;
 using System.Diagnostics;
 
@@ -6,11 +8,10 @@ namespace RobinWeb.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private IContactUsService _contactUsService;
+        public HomeController(IContactUsService contactUsService)
         {
-            _logger = logger;
+            _contactUsService = contactUsService;
         }
 
         public IActionResult Index()
@@ -18,15 +19,53 @@ namespace RobinWeb.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        [HttpPost]
+        [Route("file-upload")]
+        public IActionResult UploadImage(IFormFile upload, string CKEditorFuncNum, string CKEditor, string langCode)
         {
-            return View();
+            if (upload.Length <= 0) return null;
+
+            var fileName = Guid.NewGuid() + Path.GetExtension(upload.FileName).ToLower();
+
+            var path = Path.Combine(
+                Directory.GetCurrentDirectory(), "wwwroot/img/CKImages",
+                fileName);
+
+            using (var stream = new FileStream(path, FileMode.Create))
+            {
+                upload.CopyTo(stream);
+
+            }
+
+            var url = $"{"/img/CKImages/"}{fileName}";
+
+            return Json(new { uploaded = true, url });
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        [HttpPost]
+        public IActionResult ContactUs(ContactUsForm contactUsForm)
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            if (!ModelState.IsValid)
+                return View("Index");
+
+            contactUsForm.CreateDate = DateTime.Now;
+            _contactUsService.InsertQuestion(contactUsForm);
+            TempData["Success"] = true;
+            return Redirect("/Home");
+        }
+
+        [Route("/Home/HandleError/{code}")]
+        public IActionResult HandlerError(int code)
+        {
+
+
+            if (code >= 500)
+            {
+                return View("ServerError");
+            }
+
+            return View("NotFound");
+
         }
     }
 }

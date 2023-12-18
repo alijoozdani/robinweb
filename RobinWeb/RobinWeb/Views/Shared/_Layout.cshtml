@@ -23,14 +23,14 @@
                     </div>
                     <div class="menubar">
                         <ul class="sm-hidden">
-                            <li><a href="blog.html">وبلاگ<i class="bi bi-book-fill"></i></a></li>
-                            <li><a href="index.html">خانه<i class="bi bi-house-fill"></i></a></li>
-                            <li><a href="products.html">محصولات<i class="bi bi-handbag-fill"></i></a></li>
+                            <li><a href="/Blog">وبلاگ<i class="bi bi-book-fill"></i></a></li>
+                            <li><a href="/">خانه<i class="bi bi-house-fill"></i></a></li>
+                            <li><a href="/Product">محصولات<i class="bi bi-handbag-fill"></i></a></li>
                         </ul>
                         <ul class="larg-hidden">
-                            <li><a href="blog.html"><i class="bi bi-book-fill"></i></a></li>
-                            <li><a href="index.html"><i class="bi bi-house-fill"></i></a></li>
-                            <li><a href="products.html"><i class="bi bi-handbag-fill"></i></a></li>
+                            <li><a href="/Blog"><i class="bi bi-book-fill"></i></a></li>
+                            <li><a href="/"><i class="bi bi-house-fill"></i></a></li>
+                            <li><a href="/Product"><i class="bi bi-handbag-fill"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -40,9 +40,9 @@
 
     <!-- Sotial -->
     <div class="sotial">
-        <a href="https://www.instagram.com/robinweb_" target="_blank"><i class="bi bi-instagram"></i></a>
-        <a href="#"><i class="bi bi-youtube" target="_blank"></i></a>
-        <a href="#"><i class="bi bi-whatsapp" target="_blank"></i></a>
+        <a href="https://www.instagram.com/robinweb_?igshid=YTQwZjQ0NmI0OA=" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UCwJFVX_93VPEB4k9wQzebug" target="_blank"><i class="bi bi-youtube"></i></a>
+        <a href="#" target="_blank"><i class="bi bi-whatsapp"></i></a>
     </div>
     @RenderBody()
     <!-- contact -->
@@ -53,15 +53,7 @@
                 <h3>تماس باما</h3>
                 <p>+993 554 7625 / robinweb@gmail.com</p>
             </div>
-            <div class="contact-form">
-                <form action="">
-                    <input class="input-group input-inline" type="text" name="" placeholder="Name">
-                    <input class="input-group input-inline" type="text" name="" placeholder="Email">
-                    <input class="input-group" type="text" name="" placeholder="Subject">
-                    <textarea class="input-group" type="text" name="" placeholder="Message" rows="4"></textarea>
-                    <button class="btn-neo">ارسال</button>
-                </form>
-            </div>
+            <partial name="_ContactUs" model="null" />
         </div>
     </div>
     <script src="/js/bootstrap.min.js"></script>

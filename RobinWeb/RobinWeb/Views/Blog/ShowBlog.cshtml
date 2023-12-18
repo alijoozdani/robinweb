@@ -1,0 +1,35 @@
+﻿@model RobinWeb.DataLayer.Entities.Blog
+@using RobinWeb.Core.Convertors;
+@{
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="blog">
+                <div class="blog-header">
+                    <h4>@Model.Title</h4>
+                    <p>نویسنده:<span>@Model.Blogger</span></p>
+                    <p class="float-start">@Model.CreateDate.ToShamsi()</p>
+                </div>
+                <div class="avatar">
+                    <img src="/img/blogs/@Model.ImageName" alt="avatar">
+                </div>
+                <div class="blog-text">
+                    @Html.Raw(Model.BlogText)
+                </div>
+                <div class="tags">
+                    <ul>
+                        @foreach (var tag in Model.Tags.Split("-"))
+                        {
+                            <li><a href="#">@tag#</a></li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="pattern">
+            <img src="/img/bg-pattern.png" alt="robot" id="bg-pattern">
+        </div>
+    </div>
+</div>

@@ -29,6 +29,7 @@ namespace RobinWeb.Core.Services
             blog.ShortLink = GenerateShortKey(4);
             blog.ImageName = fileName;
             _context.Add(blog);
+            _context.SaveChanges();
             return true;
         }
 
@@ -43,6 +44,7 @@ namespace RobinWeb.Core.Services
                 blog.ImageName = fileName;
             }
             _context.Update(blog);
+            _context.SaveChanges();
             return true;
         }
 
@@ -97,6 +99,7 @@ namespace RobinWeb.Core.Services
         {
             blog.BlogVisit += 1;
            _context.Update(blog);
+            _context.SaveChanges();
         }
 
         private string GenerateShortKey(int length)
@@ -122,6 +125,15 @@ namespace RobinWeb.Core.Services
         public Blog GetBlogByShortLink(string shortLink)
         {
             return _context.BlogsTbl.SingleOrDefault(b => b.ShortLink == shortLink);
+        }
+
+        public bool DeleteBlog(int blogId)
+        {
+            Blog blog = GetBlogById(blogId);
+            blog.IsDelete = true;
+            _context.Update(blog);
+            _context.SaveChanges();
+            return true;
         }
     }
 }

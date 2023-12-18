@@ -32,7 +32,7 @@ namespace RobinWeb.DataLayer.Entities
 
         [Display(Name = "شرح حال")]
         [MaxLength(500, ErrorMessage = "{0} نمی تواند بیشتر از {1} کاراکتر باشد .")]
-        public string Bio { get; set; }
+        public string? Bio { get; set; }
 
         [Display(Name = "وضعیت")]
         public bool IsActive { get; set; }
@@ -46,7 +46,7 @@ namespace RobinWeb.DataLayer.Entities
         public bool IsDelete { get; set; }
 
         #region NavigationProperties
-
+        public List<Blog>? Blogs { get; set; }
         #endregion
 
     }

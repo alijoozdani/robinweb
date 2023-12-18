@@ -1,0 +1,30 @@
+﻿@model RobinWeb.Core.DTOs.Products.ProductsForFilteringViewModel
+@{
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-9">
+            <div class="products">
+                @foreach(var item in Model.Products)
+                {
+                    <div class="product-box">
+                        <img src="/img/products/@item.ImageName" alt="product">
+                        <div class="details">
+                            <a class="title" href="#">@item.Name</a>
+                            <p class="description">
+                                @item.Comment
+                            </p>
+                            <a href="/ShowProduct/@item.ProductId" class="btn-dark float-start">مشاهده</a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="pattern-background">
+            <img src="/img/bg-pattern.png" alt="robot" id="bg-pattern">
+            <img src="/img/undraw_product_explainer_8jbm.svg" alt="robot" id="robot">
+        </div>
+    </div>
+</div>

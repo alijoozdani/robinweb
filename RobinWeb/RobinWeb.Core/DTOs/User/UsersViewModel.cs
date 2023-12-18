@@ -50,6 +50,5 @@ namespace RobinWeb.Core.DTOs
 
         public IFormFile UserAvatar { get; set; }
         public string AvatarName { get; set; }
-        public List<int> UserRoles { get; set; }
     }
 }

@@ -21,10 +21,10 @@ namespace RobinWeb.DataLayer.Entities
         [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
         public string Description { get; set; }
 
-        public string ShortLink { get; set; }
+        public string? ShortLink { get; set; }
 
         [Display(Name = "تصویر")]
-        public string AvatarName { get; set; }
+        public string? AvatarName { get; set; }
 
         [Display(Name = "دمو")]
         public string? DemoName { get; set; }

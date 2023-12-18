@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
+using RobinWeb.Core.Services;
+using RobinWeb.Core.Services.Interfaces;
 using RobinWeb.DataLayer.Context;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -38,6 +40,14 @@ builder.Services.AddAuthentication(options =>
 
 #endregion
 
+
+#region Dependenci Injection
+builder.Services.AddTransient<IUserService, UserService>();
+builder.Services.AddTransient<IProductService, ProductService>();
+builder.Services.AddTransient<IBlogService, BlogService>();
+builder.Services.AddTransient<ISliderService, SliderService>();
+builder.Services.AddTransient<IContactUsService, ContactUsService>();
+#endregion
 
 var app = builder.Build();
 

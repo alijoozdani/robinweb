@@ -1,11 +1,13 @@
 ﻿using Microsoft.AspNetCore.Http;
 using RobinWeb.Core.Convertors;
+using RobinWeb.Core.DTOs.BlogsViewModel;
 using RobinWeb.Core.DTOs.Products;
 using RobinWeb.Core.SaveAndDelete;
 using RobinWeb.Core.Security;
 using RobinWeb.Core.Services.Interfaces;
 using RobinWeb.DataLayer.Context;
 using RobinWeb.DataLayer.Entities;
+using System.Reflection.Metadata;
 
 namespace RobinWeb.Core.Services
 {
@@ -31,7 +33,34 @@ namespace RobinWeb.Core.Services
 
         public ProductsForFilteringViewModel GetForFiltering(int pageId, int take, string search)
         {
-            throw new NotImplementedException();
+            IQueryable<Product> result = _context.ProductsTbl;
+            if (!string.IsNullOrEmpty(search))
+            {
+                result = result.Where(r => r.ProductName.Contains(search));
+            }
+
+
+            var skip = (pageId - 1) * take;
+            var pageCount = (int)Math.Ceiling(result.Count() / (double)take);
+            var products = result.OrderByDescending(b => b.CreateDate).Skip(skip).Take(take).Select(b => new ProductViewModel()
+            {
+                ImageName = b.AvatarName,
+                CreateDate = b.CreateDate,
+                Name = b.ProductName,
+                ProductId = b.ProductId,
+                ShortLink = b.ShortLink,
+                Comment = b.Comment
+            }).ToList();
+            var productsModel = new ProductsForFilteringViewModel()
+            {
+                Search = search,
+                CurrentPage = pageId,
+                PageCount = pageCount,
+                StartPage = (pageId - 4 <= 0) ? 1 : pageId - 4,
+                EndPage = (pageId + 5 > pageCount) ? pageCount : pageId + 5,
+                Products = products
+            };
+            return productsModel;
         }
 
         public IEnumerable<Product> GetProducts()
