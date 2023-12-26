@@ -45,10 +45,10 @@ namespace RobinWeb.Core.DTOs
 
         [Display(Name = "کلمه عبور")]
         [MaxLength(200, ErrorMessage = "{0} نمی تواند بیشتر از {1} کاراکتر باشد .")]
-        public string Password { get; set; }
+        public string? Password { get; set; }
         public bool IsActive { get; set; }
 
-        public IFormFile UserAvatar { get; set; }
+        public IFormFile? UserAvatar { get; set; }
         public string AvatarName { get; set; }
     }
 }
