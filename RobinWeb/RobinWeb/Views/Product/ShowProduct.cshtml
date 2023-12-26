@@ -2,6 +2,25 @@
 @{
 }
 
+@section MetaTag
+    {
+    <meta name=googlebot content=index,follow>
+    <meta name=robots content=noodp,noydir>
+    <meta name=description content="جزئیات محصول">
+
+    <meta property=og:site_name value="رابین وب">
+    <meta property=og:title content="@Model.ProductName">
+    <meta property=og:url content="https://Robinwebstudio.ir/ShowProduct/@Model.ProductId" />
+    <meta property=og:image content="/img/products/@Model.AvatarName">
+    <meta property=og:image:url content="/img/products/@Model.AvatarName" />
+    <meta property=og:image:width content="700">
+
+    <meta property=og:image:type content="image/jpg">
+    <meta property=og:description content="">
+    <meta property=og:price:currency content="IRR">
+    <meta property=og:locale content="ir_FA">
+}
+
 <div class="container">
     <div class="row">
         <div class="col-md-8">
