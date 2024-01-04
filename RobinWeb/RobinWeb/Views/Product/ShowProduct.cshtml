@@ -16,7 +16,7 @@
     <meta property=og:image:width content="700">
 
     <meta property=og:image:type content="image/jpg">
-    <meta property=og:description content="">
+    <meta property=og:description content="@Model.Comment">
     <meta property=og:price:currency content="IRR">
     <meta property=og:locale content="ir_FA">
 }
@@ -27,8 +27,8 @@
             <div class="blog">
                 <div class="blog-header">
                     <h4>@Model.ProductName</h4>
-                    <p>@Model.Comment</p>
-                    <p class="float-start"><span>لینک کوتاه:</span>@Model.ShortLink</p>
+                    <p>@Model.VisitCount<i class="bi bi-eye"></i></p>
+                    <a id="copyTarget" onclick="copyToClipboard('https://robinwebstudio.ir/@Model.ShortLink')" class="float-start"><span>لینک کوتاه: </span>https://robinwebstudio.ir/@Model.ShortLink</a>
                 </div>
                 <div class="avatar">
                     <img src="/img/products/@Model.AvatarName" alt="avatar">

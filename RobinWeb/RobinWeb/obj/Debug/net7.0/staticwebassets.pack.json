@@ -281,6 +281,38 @@
       "PackagePath": "staticwebassets\\css\\main.min.css.map"
     },
     {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\fonts\\IRANSansWeb(FaNum).eot",
+      "PackagePath": "staticwebassets\\fonts\\IRANSansWeb(FaNum).eot"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\fonts\\IRANSansWeb(FaNum).ttf",
+      "PackagePath": "staticwebassets\\fonts\\IRANSansWeb(FaNum).ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\fonts\\IRANSansWeb(FaNum).woff",
+      "PackagePath": "staticwebassets\\fonts\\IRANSansWeb(FaNum).woff"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\fonts\\IRANSansWeb(FaNum).woff2",
+      "PackagePath": "staticwebassets\\fonts\\IRANSansWeb(FaNum).woff2"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\fonts\\IRANSansWeb.eot",
+      "PackagePath": "staticwebassets\\fonts\\IRANSansWeb.eot"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\fonts\\IRANSansWeb.ttf",
+      "PackagePath": "staticwebassets\\fonts\\IRANSansWeb.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\fonts\\IRANSansWeb.woff",
+      "PackagePath": "staticwebassets\\fonts\\IRANSansWeb.woff"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\fonts\\IRANSansWeb.woff2",
+      "PackagePath": "staticwebassets\\fonts\\IRANSansWeb.woff2"
+    },
+    {
       "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\fonts\\bootstrap-icons.woff",
       "PackagePath": "staticwebassets\\fonts\\bootstrap-icons.woff"
     },
@@ -341,8 +373,24 @@
       "PackagePath": "staticwebassets\\img\\pattern.webp"
     },
     {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\products\\9483f36e-2282-42be-b4dc-9c9db476f1218800987_854.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\9483f36e-2282-42be-b4dc-9c9db476f1218800987_854.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\products\\af04a49b-2f98-4eb3-9ed9-efc886183f22clinic-image.png",
+      "PackagePath": "staticwebassets\\img\\products\\af04a49b-2f98-4eb3-9ed9-efc886183f22clinic-image.png"
+    },
+    {
       "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\products\\d79714f2-ef7c-478b-9b03-1e176e8e6333Introduce-Clinic_01.png",
       "PackagePath": "staticwebassets\\img\\products\\d79714f2-ef7c-478b-9b03-1e176e8e6333Introduce-Clinic_01.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\products\\thumb\\9483f36e-2282-42be-b4dc-9c9db476f1218800987_854.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\thumb\\9483f36e-2282-42be-b4dc-9c9db476f1218800987_854.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\products\\thumb\\af04a49b-2f98-4eb3-9ed9-efc886183f22clinic-image.png",
+      "PackagePath": "staticwebassets\\img\\products\\thumb\\af04a49b-2f98-4eb3-9ed9-efc886183f22clinic-image.png"
     },
     {
       "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\products\\thumb\\d79714f2-ef7c-478b-9b03-1e176e8e6333Introduce-Clinic_01.png",
@@ -405,8 +453,16 @@
       "PackagePath": "staticwebassets\\js\\contact-us.js"
     },
     {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
       "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\js\\jquery-3.7.1.min.js",
       "PackagePath": "staticwebassets\\js\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\video\\product\\cdbdc188-3982-460c-89a3-2d9848fed943clinic-image.png",
+      "PackagePath": "staticwebassets\\video\\product\\cdbdc188-3982-460c-89a3-2d9848fed943clinic-image.png"
     },
     {
       "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\video\\product\\f640debd-2937-4cad-9f80-8173d83a9705Introduce-Clinic_01.png",

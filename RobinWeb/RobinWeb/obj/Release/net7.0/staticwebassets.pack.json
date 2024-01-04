@@ -1,0 +1,433 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\RobinWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RobinWeb.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\css\\bootstrap-rtl.css",
+      "PackagePath": "staticwebassets\\AdminContent\\css\\bootstrap-rtl.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\AdminContent\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\AdminContent\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\css\\plugins\\dataTables\\dataTables.bootstrap.css",
+      "PackagePath": "staticwebassets\\AdminContent\\css\\plugins\\dataTables\\dataTables.bootstrap.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\css\\plugins\\morris\\morris-0.4.3.min.css",
+      "PackagePath": "staticwebassets\\AdminContent\\css\\plugins\\morris\\morris-0.4.3.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\css\\plugins\\social-buttons\\social-buttons.css",
+      "PackagePath": "staticwebassets\\AdminContent\\css\\plugins\\social-buttons\\social-buttons.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\css\\plugins\\timeline\\timeline.css",
+      "PackagePath": "staticwebassets\\AdminContent\\css\\plugins\\timeline\\timeline.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\css\\sb-admin.css",
+      "PackagePath": "staticwebassets\\AdminContent\\css\\sb-admin.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\less\\core.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\core.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\fixed-width.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\font-awesome.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\less\\icons.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\icons.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\less\\larger.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\larger.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\less\\list.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\list.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\mixins.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\less\\path.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\path.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\less\\spinning.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\spinning.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\stacked.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\less\\variables.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\variables.less"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_core.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_icons.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_larger.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_list.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_path.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\scss\\_spinning.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_spinning.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\font-awesome\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\AdminContent\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\AdminContent\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\AdminContent\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\AdminContent\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\js\\demo\\dashboard-demo.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\demo\\dashboard-demo.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\js\\demo\\flot-demo.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\demo\\flot-demo.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\js\\demo\\morris-demo.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\demo\\morris-demo.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\js\\jquery-1.10.2.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\jquery-1.10.2.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\js\\kendo.all.min.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\kendo.all.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\js\\plugins\\dataTables\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\dataTables\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\js\\plugins\\dataTables\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\dataTables\\jquery.dataTables.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\js\\plugins\\flot\\excanvas.min.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\flot\\excanvas.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\flot\\jquery.flot.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.pie.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\flot\\jquery.flot.pie.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.resize.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\flot\\jquery.flot.resize.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.tooltip.min.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\flot\\jquery.flot.tooltip.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\js\\plugins\\metisMenu\\jquery.metisMenu.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\metisMenu\\jquery.metisMenu.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\js\\plugins\\morris\\morris.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\morris\\morris.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\js\\plugins\\morris\\raphael-2.1.0.min.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\morris\\raphael-2.1.0.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\AdminContent\\js\\sb-admin.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\sb-admin.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\css\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\css\\main.min.css",
+      "PackagePath": "staticwebassets\\css\\main.min.css"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\css\\main.min.css.map",
+      "PackagePath": "staticwebassets\\css\\main.min.css.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\CKImages\\c415b396-047a-47b6-abbe-3c6606da89b3.png",
+      "PackagePath": "staticwebassets\\img\\CKImages\\c415b396-047a-47b6-abbe-3c6606da89b3.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\RobinwebLogo.png",
+      "PackagePath": "staticwebassets\\img\\RobinwebLogo.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\background.png",
+      "PackagePath": "staticwebassets\\img\\background.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\banner_bg.png",
+      "PackagePath": "staticwebassets\\img\\banner_bg.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\bg-pattern.png",
+      "PackagePath": "staticwebassets\\img\\bg-pattern.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\blogs\\24e9df68-8fa4-470c-8603-30acdeb2b4a98800987_854.jpg",
+      "PackagePath": "staticwebassets\\img\\blogs\\24e9df68-8fa4-470c-8603-30acdeb2b4a98800987_854.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\blogs\\a6335f97-471d-4e13-97fc-8f5aa9a4d9e68800987_854.jpg",
+      "PackagePath": "staticwebassets\\img\\blogs\\a6335f97-471d-4e13-97fc-8f5aa9a4d9e68800987_854.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\blogs\\a8ec80c2-e41d-4342-af71-593ccf07169b8800987_854.jpg",
+      "PackagePath": "staticwebassets\\img\\blogs\\a8ec80c2-e41d-4342-af71-593ccf07169b8800987_854.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\blogs\\ae26e8a8-1f11-4786-8548-d308449776778800987_854.jpg",
+      "PackagePath": "staticwebassets\\img\\blogs\\ae26e8a8-1f11-4786-8548-d308449776778800987_854.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\image_processing20220708-21892-cye7ve.gif",
+      "PackagePath": "staticwebassets\\img\\image_processing20220708-21892-cye7ve.gif"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\nophoto.png",
+      "PackagePath": "staticwebassets\\img\\nophoto.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\pattern.mp4",
+      "PackagePath": "staticwebassets\\img\\pattern.mp4"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\pattern.webp",
+      "PackagePath": "staticwebassets\\img\\pattern.webp"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\products\\d79714f2-ef7c-478b-9b03-1e176e8e6333Introduce-Clinic_01.png",
+      "PackagePath": "staticwebassets\\img\\products\\d79714f2-ef7c-478b-9b03-1e176e8e6333Introduce-Clinic_01.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\products\\thumb\\d79714f2-ef7c-478b-9b03-1e176e8e6333Introduce-Clinic_01.png",
+      "PackagePath": "staticwebassets\\img\\products\\thumb\\d79714f2-ef7c-478b-9b03-1e176e8e6333Introduce-Clinic_01.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\slider\\6bfea0bd-344f-4307-8be8-bddb360a49d08800987_854.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\6bfea0bd-344f-4307-8be8-bddb360a49d08800987_854.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\undraw_online_organizer_re_156n.svg",
+      "PackagePath": "staticwebassets\\img\\undraw_online_organizer_re_156n.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\undraw_pair_programming_re_or4x.svg",
+      "PackagePath": "staticwebassets\\img\\undraw_pair_programming_re_or4x.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\undraw_product_explainer_8jbm.svg",
+      "PackagePath": "staticwebassets\\img\\undraw_product_explainer_8jbm.svg"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\userAvatar\\7576dad0-6d0d-4672-a282-61d4505a71e0IMG_4858.jpg",
+      "PackagePath": "staticwebassets\\img\\userAvatar\\7576dad0-6d0d-4672-a282-61d4505a71e0IMG_4858.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\userAvatar\\Defult.jpg",
+      "PackagePath": "staticwebassets\\img\\userAvatar\\Defult.jpg"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\vector-file.png",
+      "PackagePath": "staticwebassets\\img\\vector-file.png"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\js\\Config.js",
+      "PackagePath": "staticwebassets\\js\\Config.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\js\\contact-us.js",
+      "PackagePath": "staticwebassets\\js\\contact-us.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\js\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\video\\product\\f640debd-2937-4cad-9f80-8173d83a9705Introduce-Clinic_01.png",
+      "PackagePath": "staticwebassets\\video\\product\\f640debd-2937-4cad-9f80-8173d83a9705Introduce-Clinic_01.png"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.RobinWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.RobinWeb.props",
+      "PackagePath": "build\\RobinWeb.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.RobinWeb.props",
+      "PackagePath": "buildMultiTargeting\\RobinWeb.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.RobinWeb.props",
+      "PackagePath": "buildTransitive\\RobinWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

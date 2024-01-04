@@ -1,0 +1,12 @@
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.DataLayer\bin\Release\net7.0\RobinWeb.DataLayer.deps.json
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.DataLayer\bin\Release\net7.0\RobinWeb.DataLayer.dll
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.DataLayer\bin\Release\net7.0\RobinWeb.DataLayer.pdb
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.DataLayer\obj\Release\net7.0\RobinWeb.DataLayer.csproj.AssemblyReference.cache
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.DataLayer\obj\Release\net7.0\RobinWeb.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.DataLayer\obj\Release\net7.0\RobinWeb.DataLayer.AssemblyInfoInputs.cache
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.DataLayer\obj\Release\net7.0\RobinWeb.DataLayer.AssemblyInfo.cs
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.DataLayer\obj\Release\net7.0\RobinWeb.DataLayer.csproj.CoreCompileInputs.cache
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.DataLayer\obj\Release\net7.0\RobinWeb.DataLayer.dll
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.DataLayer\obj\Release\net7.0\refint\RobinWeb.DataLayer.dll
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.DataLayer\obj\Release\net7.0\RobinWeb.DataLayer.pdb
+D:\Workspace\Project\RobinWeb\Robinweb.backend\RobinWeb\RobinWeb.DataLayer\obj\Release\net7.0\ref\RobinWeb.DataLayer.dll

@@ -84,7 +84,7 @@ namespace RobinWeb.Core.Services
             return product.ProductId;
         }
 
-        public bool InsertProductForAdmin(Product product, IFormFile image,IFormFile demo)
+        public bool InsertProductForAdmin(Product product, IFormFile image,IFormFile? demo)
         {
             if (image == null) return false;
             if (!image.IsImage()) return false;
@@ -95,13 +95,16 @@ namespace RobinWeb.Core.Services
             string thumbPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/products/thumb", fileName);
             imgResizer.Image_resize(imagePath, thumbPath, 150);
 
-            var demoName = SaveFileInServer.SaveFile(image, "wwwroot/video/product");
+            if (demo != null)
+            {
+                var demoName = SaveFileInServer.SaveFile(demo, "wwwroot/video/product");
+                product.DemoName = demoName;
+            }
 
             product.IsDelete = false;
             product.CreateDate = DateTime.Now;
             product.ShortLink = GenerateShortKey(4);
             product.AvatarName = fileName;
-            product.DemoName = demoName;
             product.VisitCount = 0;
             InsertProduct(product);
 
@@ -115,7 +118,7 @@ namespace RobinWeb.Core.Services
             return true;
         }
 
-        public bool UpdateProductForAdmin(Product product, IFormFile image, IFormFile demo)
+        public bool UpdateProductForAdmin(Product product, IFormFile image, IFormFile? demo)
         {
             if (image != null && image.IsImage())
             {

@@ -19,7 +19,7 @@ namespace RobinWeb.Pages.Admin.Products
         public void OnGet()
         {
         }
-        public IActionResult OnPost(IFormFile imgProductUp, IFormFile demoUp)
+        public IActionResult OnPost(IFormFile imgProductUp, IFormFile? demoUp)
         {
             if (!ModelState.IsValid)
                 return Page();

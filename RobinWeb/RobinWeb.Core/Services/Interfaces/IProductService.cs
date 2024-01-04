@@ -10,9 +10,9 @@ namespace RobinWeb.Core.Services.Interfaces
         ProductsForFilteringViewModel GetForFiltering(int pageId, int take, string search);
         Product GetProductById(int productId);
         int InsertProduct(Product product);
-        bool InsertProductForAdmin(Product product, IFormFile image, IFormFile demo);
+        bool InsertProductForAdmin(Product product, IFormFile image, IFormFile? demo);
         bool UpdateProduct(Product product);
-        bool UpdateProductForAdmin(Product product, IFormFile image, IFormFile demo);
+        bool UpdateProductForAdmin(Product product, IFormFile image, IFormFile? demo);
         bool DeleteProduct(int productId);
         void IncreaseNumberVisits(int prodcutId);
         string GenerateShortKey(int length);
