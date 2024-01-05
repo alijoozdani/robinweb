@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fqulULr//E8H/zTR2x2tYzkivWXx64NBjC4Vu6PcIyc=",
+  "Hash": "OYsdC/UqIigHy0+NrxHSvfJuq/zwfsLIy2Ikt2kaVOk=",
   "Source": "RobinWeb",
   "BasePath": "_content/RobinWeb",
   "Mode": "Default",
@@ -1460,6 +1460,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\blogs\\24e9df68-8fa4-470c-8603-30acdeb2b4a98800987_854.jpg"
+    },
+    {
+      "Identity": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\blogs\\70f31aa6-876f-47b2-8d42-998161f10f238800987_854.jpg",
+      "SourceId": "RobinWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\",
+      "BasePath": "_content/RobinWeb",
+      "RelativePath": "img/blogs/70f31aa6-876f-47b2-8d42-998161f10f238800987_854.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\blogs\\70f31aa6-876f-47b2-8d42-998161f10f238800987_854.jpg"
     },
     {
       "Identity": "D:\\Workspace\\Project\\RobinWeb\\Robinweb.backend\\RobinWeb\\RobinWeb\\wwwroot\\img\\blogs\\a6335f97-471d-4e13-97fc-8f5aa9a4d9e68800987_854.jpg",

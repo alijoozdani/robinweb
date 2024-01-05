@@ -75,6 +75,7 @@ namespace RobinWeb.Core.Services
             {
                 prodcut.VisitCount += 1;
             }
+            UpdateProduct(prodcut);
         }
 
         public int InsertProduct(Product product)

@@ -27,8 +27,6 @@
             <div class="blog">
                 <div class="blog-header">
                     <h4>@Model.ProductName</h4>
-                    <p>@Model.VisitCount<i class="bi bi-eye"></i></p>
-                    <a id="copyTarget" onclick="copyToClipboard('https://robinwebstudio.ir/@Model.ShortLink')" class="float-start"><span>لینک کوتاه: </span>https://robinwebstudio.ir/@Model.ShortLink</a>
                 </div>
                 <div class="avatar">
                     <img src="/img/products/@Model.AvatarName" alt="avatar">
@@ -36,6 +34,14 @@
                 <div class="blog-text">
                     @Html.Raw(Model.Description)
                 </div>
+                @if(Model.DemoName!=null){
+                <div class="demo">
+                    <video controls>
+                        <source src="/video/product/@Model.DemoName" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                }
             </div>
         </div>
         <div class="pattern">
